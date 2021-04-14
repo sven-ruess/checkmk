@@ -6,18 +6,14 @@
 
 from cmk.gui.i18n import _
 from cmk.gui.valuespec import (
-    Age,
     Dictionary,
     TextAscii,
-    Tuple,
-    Integer,
     DropdownChoice
 )
 from cmk.gui.plugins.wato import (
     RulespecGroupCheckParametersStorage,
     CheckParameterRulespecWithItem,
-    rulespec_registry,
-    HostRulespec,
+    rulespec_registry
 )
 
 
